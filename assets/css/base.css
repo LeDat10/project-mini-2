@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bg-1: #FF67A2;
+    --bg-2: #8463EA;
+    --bg-3: #77A4D3;
+    --color-text: #77799E;
+    --time: all 0.2s;
+    --bg-4: #F2F2FE;
+    --background: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+    
+    
+
+}
+
+
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #fff;
+    background-color:var(--bg-1);
+}
